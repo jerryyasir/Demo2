@@ -11,7 +11,9 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             //First change.
-
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.WriteLine("This is another change...");
+            Console.ReadKey();
         }
     }
 }
